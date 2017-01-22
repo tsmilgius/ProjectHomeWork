@@ -13,7 +13,7 @@ public class OneDimensionalArray {
     private final static String MANIPULATION_MESSAGE = "Po manipuliacijų masyvas atvaizduojamas taip:";
     private static Scanner Input = new Scanner(System.in);
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         System.out.println(GREETING_MESSAGE);
         int arraySize = Input.nextInt();
         OneDimensionalArray Array = new OneDimensionalArray();
@@ -52,18 +52,18 @@ public class OneDimensionalArray {
      * @param arrayForModification int[].
      */
 
-    private static void modifyArray(int[] arrayForModification) throws InterruptedException {
-        for (int i = 0;  i < arrayForModification.length; i++){
-            if( arrayForModification[i] % 3 == 0) {
+    private static void modifyArray(int[] arrayForModification) {
+        for (int i = 0; i < arrayForModification.length; i++) {
+            if (arrayForModification[i] % 3 == 0) {
                 arrayForModification[i] *= 2;
             }
         }
         if (arrayForModification.length % 2 == 0) {
-            for(int j = arrayForModification.length - 1; j > 0; j -= 2 ) {
+            for (int j = arrayForModification.length - 1; j > 0; j -= 2) {
                 System.out.println(arrayForModification[j]);
                 System.out.println(arrayForModification[j - 1]);
             }
-            for (int j = arrayForModification.length - 1; j > 0; j =- 2) {
+            for (int j = arrayForModification.length - 1; j > 0; j = -2) {
                 System.out.println(arrayForModification[j]);
                 System.out.println(arrayForModification[j - 1]);
             }

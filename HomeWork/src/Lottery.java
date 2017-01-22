@@ -3,7 +3,8 @@ import java.util.Scanner;
 /**
  * Created by tomas on 2017-01-22.
  * Program checks if 6 digit lotto ticket is lucky. The winning conditions are met if the sum of the first three digits
- * equals to the sum of the last three digits. As additional feature it may print all lucky 6 digit numbers (uncomment line 19)
+ * equals to the sum of the last three digits. As additional feature it may print all lucky 6 digit numbers (uncomment
+ * line 19)
  */
 public class Lottery {
     private static Scanner Input = new Scanner(System.in);
