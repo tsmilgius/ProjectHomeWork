@@ -63,7 +63,9 @@ public class OneDimensionalArray {
                 System.out.println(arrayForModification[j]);
                 System.out.println(arrayForModification[j - 1]);
             }
-            for (int j = arrayForModification.length - 1; j > 0; j = -2) {
+        }
+        else{
+            for (int j = arrayForModification.length - 1; j > 0; j -=2) {
                 System.out.println(arrayForModification[j]);
                 System.out.println(arrayForModification[j - 1]);
             }
