@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa9a823a-4d22-4398-a2a9-3a0f9962f166" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HomeWork/Lottery.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HomeWork/OneDimensionalArray.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HomeWork/PromptNumbers.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HomeWork/TheGame.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -607,7 +603,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485107884961</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added generator to the Lottery to see all the lucky numbers">
+      <created>1485108742693</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1485108742693</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
