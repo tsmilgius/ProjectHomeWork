@@ -17,7 +17,7 @@ Sukurti žaidimą, kurio tikslas atspėti skaičių nuo 1 iki 10. Kaskart spėja
 generuojamas naujas skaičius. Žaidimas baigiasi kuomet skaičius yra atspėjamas arba vartotojas kaip spėjamą
 skaičių įveda 0.
 
-3. Paprašyti vartotojo nurodyti kiek skaičių jis ketina įvesti, tuomet duoti jam įvesti tiek skaičių,
+3.Paprašyti vartotojo nurodyti kiek skaičių jis ketina įvesti, tuomet duoti jam įvesti tiek skaičių,
 kiek jis pasirinko. Po įvedimo atvaizduoti tik tuos skaičius, kurie yra lyginiai ir yra didesni nei 50;
 
 4.Parašyti programą, kuri nustato, ar loterijos bilietas yra laimingas. Loterijos bilieto šešiaženklis numeris
